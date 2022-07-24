@@ -65,7 +65,7 @@ function elUserDom (array, node){
     newTeampUser.querySelector('.users__location').textContent = "user location"
     newTeampUser.querySelector('.users__tel').textContent = `tel:${poc.phone}`
     newTeampUser.querySelector('.users__tel').href = `tel:${poc.phone}`
-    newTeampUser.querySelector('.users__website').href = `${poc.website}`
+    newTeampUser.querySelector('.users__website').href = `http://www.${poc.website}`
     newTeampUser.querySelector('.users__website').textContent = `website:${poc.website}`
     newTeampUser.querySelector('.users__company').textContent = `company:${poc.company.name}`
     newTeampUser.querySelector('.users__catch').textContent = `catch:${poc.company.catchPhrase}`
