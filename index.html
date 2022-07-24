@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+  <div class="lodaing">
+    <img class="load" src="./images/Spinner-1.1s-203px.svg" width="500" height="400" alt="">
+  </div>
+
+  <div class="container iner">
+    <ul class="users">
+    </ul>
+    <ul class="posts"></ul>
+    <ul class="comment"></ul>
+  </div>
+
+  <template class="temp-users">
+    <li class="users__item">
+      <span class="users__id"></span>
+      <h2 class="users__name"></h2>
+      <h3 class="users__names"></h3>
+      <a class="users__email" href=""></a>
+      <address class="users__address">
+        <span class="users__address__city"> </span>
+        <span class="users__address__street"> </span>
+        <span class="users__address__suite"> </span>
+        <span class="users__address__zipcode"> </span>
+        <a class="users__location" href="" target="blank"></a>
+      </address>
+      <a class="users__tel" href="tel:+"></a>
+      <div>
+        <a class="users__website" href="" target="blank"></a>
+        <p class="users__company"></p>
+        <span class="users__catch"></span>
+        <span class="users__bs"></span>
+      </div>
+    </li>
+  </template>
+
+
+  <template class="temp-post">
+    <li class="post__item">
+      <span class="post__userid"></span>
+      <span class="post__item__id"></span>
+      <h2 class="post__item__tittle"></h2>
+      <p class="post__item__text"></p>
+    </li>
+
+  </template>
+
+  <template class="comment-temp">
+    <li class="comment__iteam">
+      <span class="comment__iteam__postid"></span>
+      <span class="comment__iteam__id"></span>
+      <h3 class="comment__iteam__name"></h3>
+      <a class="comment__iteam__useremail" href=""></a>
+      <p class="comment__iteam__text"></p>
+    </li>
+
+  </template>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
