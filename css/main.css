@@ -139,6 +139,10 @@ ul::-webkit-scrollbar-thumb{
   content: "";
 }
 
+a:hover{
+  opacity: 0.6;
+}
+
 
 .users__id {
   display: block;
@@ -199,6 +203,10 @@ ul::-webkit-scrollbar-thumb{
   display: block;
   margin-bottom: 10px;
   text-align: right;
+}
+
+.users__address__zipcode {
+  margin-bottom: 8px;
 }
 
 .users__website {
